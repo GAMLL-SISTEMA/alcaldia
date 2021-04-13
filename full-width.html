@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Modern Business - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body class="p-0" style="background: linear-gradient(90deg, rgb(46%,40%,48%),rgb(255%,255%,255%),rgb(46%,40%,48%));">
+
+  <!-- Navigation fixed-top fixed-top-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <img src="front/Escudo.png" alt="" width="70">
+      <a class="navbar-brand font-italic" href="index.html">G.M.LL.<br>Esfuerzo y Desarrollo</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="text-dark navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><strong> Llallagua</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html"><strong>Noticias</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><strong>Contactos</strong></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Sub-Alcadias</strong>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="portfolio-1-col.html">Siglo XX</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">22 de Diciembre</a>
+              <a class="dropdown-item" href="portfolio-3-col.html">Catavi</a>
+              <a class="dropdown-item" href="portfolio-4-col.html">Chullpa</a>
+              <a class="dropdown-item" href="portfolio-item.html">Sikuya</a>
+              <a class="dropdown-item" href="portfolio2-item.html">Sakamarca</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Gaceta municipal</strong>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="blog-home-1.html">Decreto Municipal</a>
+              <a class="dropdown-item" href="blog-home-2.html">Decreto Edil</a>
+              <a class="dropdown-item" href="blog-post.html">Decreto Ejecutivo</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Otros</strong>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+              <a class="dropdown-item" href="full-width.html">Dirección de Cultura</a>
+              <a class="dropdown-item" href="sidebar.html">Dirección de Turismo</a>
+
+            </div>
+          </li>
+
+        </ul>
+        <!--para login ann register-->
+
+        <button type="button" class="btn btn-outline-primary mx-1" data-toggle="modal"data-target="#loginModal" id="buttonlogin "name="buttonlogin">Ingresar</button>
+        <button type="button" class="btn btn-outline-primary" data-toggle="modal"data-target="#registerModal"name="button">Registro</button>
+
+
+        <!--PARA LOGIN-->
+
+
+
+          <div class="modal fade" role="dialog" id="loginModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <div class="modal-header">
+                    <h3 class="modal-title">Ingresar</h3>
+                    <button type="button" class="close" data-dismiss="modal" name="bu">&times;</button>
+                  </div>
+
+                  <div class="modal-body">
+
+                    <div class="from-group">
+                      <input type="text" name="username" id="username" class="form-control" value="" placeholder="Nombre o Email">
+                    </div>
+                    <br>
+                    <div class="from-group">
+                      <input type="password" name="password" id="password" class="form-control" value="" placeholder="Contraseña">
+                    </div>
+
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" name="forpassword">¿Olvidó su contraceña?</button>
+                    <button type="button" class="mx-5 btn btn-danger" data-dismiss="modal" name="cancel">Cancelar</button>
+                    <button type="submit" class="btn btn-success" id="login_button" name="login_button">Ingresar</button>
+                  </div>
+
+                </div>
+              </div>
+
+          </div>
+
+
+
+
+        <!-- para registro -->
+        <div class="modal fade" role="dialog" id="registerModal">
+
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <h3 class="modal-title">Registrarse</h3>
+                  <button type="button" class="close" data-dismiss="modal" name="bu">&times;</button>
+                </div>
+
+                <div class="modal-body">
+
+                  <div class="from-group">
+
+                    <input type="text" name="username_register" id="username_register" class="form-control" value="" placeholder="Nombre de Usuario">
+
+                  </div>
+                  <br>
+                  <div class="from-group">
+                    <input type="password" name="password_register" id="password_register"class="form-control" value="" placeholder="Contraseña">
+                    <!---<div class="input-group">
+                        <input type="password" name="password_registerc" id="password_registerc" class="form-control" value="" placeholder="Password" data-toggle="password">
+                        <div class="input-group-append">
+                            <div class="input-group-text"><i class="fa fa-eye"></i></div>
+                        </div>
+                    </div>-->
+                  </div>
+                  <br>
+                  <div class="from-group">
+                    <input type="password" name="repassword_register" id="repassword_register"class="form-control" value="" placeholder="Repetir contraseña">
+                  </div>
+                  <br>
+                  <div class="from-group">
+                    <input type="text" name="nick_name_register" id="nick_name_register" class="form-control" value="" placeholder="Nombres y Apellidos">
+                  </div>
+                  <br>
+                  <div class="from-group">
+                    <input type="email" name="email_register" id="email_register"class="form-control" value="" placeholder="Email">
+                  </div>
+
+
+                </div>
+
+                <div class="modal-footer">
+
+                  <button type="button" class="mx-5 btn btn-danger" data-dismiss="modal" name="cancel_register">Cancelar</button>
+                  <button type="submit" class="btn btn-success" id="register_button" name="register_button">Registrarse</button>
+                </div>
+
+              </div>
+
+              </div>
+            </div>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">DIRECCION DE CULTURA
+      <small></small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Inicio</a>
+      </li>
+      <li class="breadcrumb-item active">Dirección de Cultura</li>
+    </ol>
+
+    <div class="row">
+      <div class="col-lg-12 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="front/virgen de la asuncion.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              <a href="#">Festividad de la virgen de la Asunción</a>
+            </h4>
+            <p class="card-text text-justify">Del 13 al 16 de agosto, Llallagua es el centro de atracción en todo el norte del Potosí, ya que se celebra la asunción de la virgen María y, en honor a ella, se celebra la llamada Festividad de la Virgen de la Asunción. A diferencia de otras festividades existentes en el departamento e incluso fiestas patronales del país, esta no es sometida a movimiento de fecha («Al Santo, en su día», reza el refrán popular).
+            La festividad es organizada por Asconfolk (Asociación de Conjuntos Folklóricos de Llallagua).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Gobierno Autónomo Municipal de Llallagua &copy;Todos los derechos Reservados.</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
