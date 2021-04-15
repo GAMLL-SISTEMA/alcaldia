@@ -141,7 +141,7 @@
                   </div>
                   <br>
                   <div class="from-group">
-                    <input type="password" name="password" id="password"class="form-control" value="" placeholder="Contraseña">
+                    <input type="password" name="contrasena" id="contrasena"class="form-control" value="" placeholder="Contraseña">
                     <!---<div class="input-group">
                         <input type="password" name="password_registerc" id="password_registerc" class="form-control" value="" placeholder="Password" data-toggle="password">
                         <div class="input-group-append">
@@ -413,11 +413,13 @@
 $(document).ready(function(){
     $('#register_button').click(function(){
         var usuario=$('#usuario').val();
-        var password=$('#password').val();
+        var password=$('#contrasena').val();
         var repassword=$('#repassword').val();
         var nombres_apellidos=$('#nombres_apellidos').val();
         var email=$('#email').val();
-        if(usuario !='' && password != '' && repassword != '' && nombres_apellidos != '' && email != ''){
+
+        if(usuario !='' && password != '' && repassword != '' && nombres_apellidos != '', email != ''){
+
           if(password == repassword){
             $.ajax({
               url:"includes/i_user.php",
@@ -427,6 +429,8 @@ $(document).ready(function(){
               {
                 if(data == 'yes'){
                   alert("se registro!");
+                  $('#registerModal').hide();
+                  location.reload();
                 }else{
                   alert(data);
                 }

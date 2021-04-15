@@ -1,5 +1,8 @@
 <?php
-echo "lllll.llallagua"
-echo "grover sierra";
-echo "fabian sierra";
+include 'db.php';
+
+DBCreateUserTable();
+//DBDropUserTable();
+DBInsertUserFake();
+
 ?>
