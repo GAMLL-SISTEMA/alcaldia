@@ -31,6 +31,36 @@ include 'header.php';
         </a>
       </div>
     </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Project Two -->
+
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Project Four -->
+    <div class="row">
+
+      <div class="col-md-6">
+        <a href="#">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="front/teatrosigloxx.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-md-6">
+        <a href="#">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="front/plazasigloxx.jpg" alt="">
+        </a>
+      </div>
+        </a>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
     <!-- Pagination -->
     <ul class="pagination justify-content-center">
       <li class="page-item">
