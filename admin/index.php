@@ -13,21 +13,21 @@ include 'header.php';
         .contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
   .contenedor {overflow:hidden;}
 -->
-        <div class="carousel-item active" style="background-image: url('front/alcaldiaaa.jpeg')">
+        <div class="carousel-item active" style="background-image: url('../front/alcaldiaaa.jpeg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>INFRAESTRUCTURA</h3>
             <p>GAMLL</p>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('front/madre_obrera.jpg')">
+        <div class="carousel-item" style="background-image: url('../front/madre_obrera.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>INFRAESTRUCTURA</h3>
             <p>SALUD</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below http://placehold.it/1900x1080-->
-        <div class="carousel-item" style="background-image: url('front/adalidalcalde.jpg')">
+        <div class="carousel-item" style="background-image: url('../front/adalidalcalde.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>NUESTRO ALCALDE</h3>
             <p>Adalid Gorge Aguilar</p>
@@ -97,7 +97,7 @@ include 'header.php';
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100"><!--http://placehold.it/700x400-->
-          <a href="#"><img class="card-img-top" src="front/estadium.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" src="../front/estadium.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Estadium Irineo Pimentel Rojas</a>
@@ -108,7 +108,7 @@ include 'header.php';
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="front/ayacucho.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" src="../front/ayacucho.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">U.E. Ayacucho</a>
@@ -119,7 +119,7 @@ include 'header.php';
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="front/carlos medinaceli.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" src="../front/carlos medinaceli.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Colegio Carlos Medinaceli</a>
@@ -141,7 +141,7 @@ include 'header.php';
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="front/itpioxii.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" src="../front/itpioxii.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Instituto Tecnico Pio XII</a>
@@ -152,7 +152,7 @@ include 'header.php';
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="front/campoferial.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" src="../front/campoferial.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Campo Ferial Norte Potosí</a>
@@ -181,7 +181,7 @@ include 'header.php';
         <p>El proyecto está elaborado a partir de una demanda de salud que se advierte en el municipio de la ciudad de El Alto, por la baja cobertura centros de salud y además por los índices elevados mortalidad materno infantil.</p>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded" src="front/hospitalnuevo.jpg" alt="">
+        <img class="img-fluid rounded" src="../front/hospitalnuevo.jpg" alt="">
       </div>
     </div>
     <!-- /.row -->
@@ -210,8 +210,8 @@ include 'header.php';
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!--
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -227,70 +227,77 @@ include 'header.php';
 
 
 
-<script type="text/javascript">
+
+
+
+
+
+
+
+<script>
+//jquery
 $(document).ready(function(){
-    $('#login_button').click(function(){
 
-        var username=$('#username').val();
-        var password=$('#lpassword').val();
 
-        if(username != '' && password != ''){
 
-            $.ajax({
-            url:"includes/i_user.php",
-            method:"POST",
-            data:{username:username, password:password},
-            success:function(data){
-              if(data == 'No'){
-                alert("Nombre de usuario y/o password incorrecto");
-              }else{
-                $('#loginModal').hide();
-                location.reload();
-              }
-            }
-          });
-        }else{
-          alert('Debe llenar los campos');
-        }
-    });
-    $('#register_button').click(function(){
-        var usuario=$('#usuario').val();
-        var password=$('#contrasena').val();
-        var repassword=$('#repassword').val();
-        var nombres_apellidos=$('#nombres_apellidos').val();
-        var email=$('#email').val();
+     //update
+     $('#update_button').click(function(){
 
-        if(usuario !='' && password != '' && repassword != '' && nombres_apellidos != '', email != ''){
+          var id = $('#id').val();
+          var username_update = $('#username_update').val();
+          var password_update = $('#password_update').val();
+          var newpassword_update = $('#newpassword_update').val();
+          var re_newpassword_update = $('#re_newpassword_update').val();
+          var fullname_update = $('#fullname_update').val();
+          var email_update = $('#email_update').val();
 
-          if(password == repassword){
-            $.ajax({
-              url:"includes/i_user.php",
-              method:"POST",
-              data: {usuario:usuario, password:password, repassword:repassword, nombres_apellidos:nombres_apellidos, email:email},
-              success:function(data)
-              {
-                if(data == 'existuser'){
-                  alert("El USUARIO YA EXISTE");
-                }else{
-                  if(data=='yes'){
-                    alert("TE REGISTRASTE!");
-                    $('#registerModal').hide();
-                    location.reload();
-                  }else{
-                      alert(data);
-                  }
-                }
-              }
-            });
+          //newpassword_update
+          if(username_update != '' && username_update != '' && password_update != '' && newpassword_update != '' && re_newpassword_update != '' && fullname_update !='' && email_update != ''){
+              //alert("entro");
+              $.ajax({
 
-          }else{
-            alert("password not match");
+                   url:"../includes/i_user.php",
+                   method:"POST",
+                   data: {id:id, username_update:username_update, password_update:password_update, newpassword_update:newpassword_update, fullname_update:fullname_update, email_update:email_update},
+
+                   success:function(data)
+                   {
+                        //alert(data);
+                        if(data == 'Nopass')
+                        {
+                             alert("anterior password incorreto");
+                        }
+                        else
+                        {
+                            if (data == 'yes') {
+                                alert('Actualizaste tu datos');
+                                $('#updateModal').hide();
+                                location.reload();
+                                //location.href="index.php";
+                            }else{
+                                alert(data);
+                            }
+                             //$('#loginModal').hide();
+                             //location.reload();
+
+                             //alert(data);
+
+
+                        }
+
+                   }
+              });
+
+
           }
+          else
+          {
+               alert("Debe llenar todos los campos");
+          }
+     });
 
-        }else{
-          alert("debe llenar todos los campos");
-        }
-    })
+
 });
+//register
 
 </script>
