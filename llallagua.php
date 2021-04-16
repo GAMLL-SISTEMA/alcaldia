@@ -2,9 +2,6 @@
 include 'header.php';
 ?>
 
-
-
-
       <!-- Page Content -->
       <div class="container">
 
@@ -122,8 +119,6 @@ include 'header.php';
 </body>
 
 </html>
-
-
 <script type="text/javascript">
 $(document).ready(function(){
     $('#login_button').click(function(){

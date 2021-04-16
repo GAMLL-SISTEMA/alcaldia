@@ -44,19 +44,19 @@ session_start();
             <a class="nav-link" href="noticias.php"><strong>Noticias</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contactos.php"><strong>Contactos</strong></a>
+            <a class="nav-link" href="contact.php"><strong>Contactos</strong></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <strong>Sub-Alcadias</strong>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">Siglo XX</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">22 de Diciembre</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">Catavi</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">Chullpa</a>
-              <a class="dropdown-item" href="portfolio-item.html">Sikuya</a>
-              <a class="dropdown-item" href="portfolio2-item.html">Sakamarca</a>
+              <a class="dropdown-item" href="subsigloxx.php">Siglo XX</a>
+              <a class="dropdown-item" href="sub22dic.php">22 de Diciembre</a>
+              <a class="dropdown-item" href="subcatavi.php">Catavi</a>
+              <a class="dropdown-item" href="subchullpa.php">Chullpa</a>
+              <a class="dropdown-item" href="subsikuya.php">Sikuya</a>
+              <a class="dropdown-item" href="subsakamarka.php">Sakamarca</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -64,9 +64,9 @@ session_start();
               <strong>Gaceta municipal</strong>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="Dmunicipal.php">Decreto Municipal</a>
-              <a class="dropdown-item" href="Dedil.php">Decreto Edil</a>
-              <a class="dropdown-item" href="Dejecutivo.php">Decreto Ejecutivo</a>
+              <a class="dropdown-item" href="decmunicipal.php">Decreto Municipal</a>
+              <a class="dropdown-item" href="decedil.php">Decreto Edil</a>
+              <a class="dropdown-item" href="deceje.php">Decreto Ejecutivo</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -74,8 +74,8 @@ session_start();
               <strong>Otros</strong>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-              <a class="dropdown-item" href="Dicultura.php">Dirección de Cultura</a>
-              <a class="dropdown-item" href="Diturismo.php">Dirección de Turismo</a>
+              <a class="dropdown-item" href="dircultura.php">Dirección de Cultura</a>
+              <a class="dropdown-item" href="dirturismo.php">Dirección de Turismo</a>
 
             </div>
           </li>

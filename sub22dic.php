@@ -1,12 +1,10 @@
 <?php
 include 'header.php';
 ?>
-
-  <!-- Page Content -->
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">DIRECCION DE TURISMO
+    <h1 class="mt-4 mb-3">SUB-ALCALDIA 22 DE DICIEMBRE
       <small></small>
     </h1>
 
@@ -14,21 +12,33 @@ include 'header.php';
       <li class="breadcrumb-item">
         <a href="index.html">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">Dirección de Turismo</li>
+      <li class="breadcrumb-item active">Subalcaldia 22 de diciembre</li>
     </ol>
 
     <div class="row">
-      <div class="col-lg-12 portfolio-item">
+      <div class="col-lg-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="front/turis.jpg" alt=""></a>
+          <a href="#"><img class="card-img-top" src="front/villa.jpg" alt=""></a>
           <div class="card-body">
-            <h4 class="card-title text-center">
-              <a href="#">Turismo en el norte de Potosí</a>
+            <h4 class="card-title">
+              <a href="#">Información</a>
             </h4>
-            <p class="card-text text-justify">Balnearios de Catavi-Rutas para escalada deportiva en Catavi y Katiri-Mina Salvadora-Mina Siglo XX-Arenales de Catavi-Granzas y cerro de Cascajo-Tranque Lupi Lupi-Pampas Maria Barzola: donde se firmó la Nacionalización de las Minas-Cerro Camello-Festividad de la Virgen de Asunción (13,14,15,16 de Agosto)-Ingenios de Siglo XX y muchos otros lugares que no puedes perderte en el norte de Potosí.</p>
+            <p class="card-text">El distrito 22 de diciembre comprende varias zonas de la ciudad de Llallagua, la cual muestra un progreso exponencial para el desarrollo del departamento de Potosí.</p>
           </div>
         </div>
       </div>
+      <div class="col-lg-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="front/hos.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Hospital Madre Obrera</a>
+            </h4>
+            <p class="card-text">Hubicado en la Av. Norte Potosí, carretera a Uncia.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
     <!-- /.row -->
 
@@ -75,7 +85,6 @@ include 'header.php';
 </body>
 
 </html>
-
 <script type="text/javascript">
 $(document).ready(function(){
     $('#login_button').click(function(){

@@ -5,80 +5,67 @@ include 'header.php';
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Noticias
-      <small>Declaratoria de emergencia municipal por el rebrote Covid-19</small>
+    <h1 class="mt-4 mb-3">SUB-ALCALDIA SIKUYA
+      <small></small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
         <a href="index.html">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">Noticias</li>
+      <li class="breadcrumb-item active">Subalcaldia Sikuya</li>
     </ol>
 
-    <!-- Image Header http://placehold.it/1200x300-->
-    <style media="screen">
-      .img{
-        margin:10px auto;
-        border-radius:5px;
-        border: 1px solid #999;
-        padding:13px;
-        width:100%;
-        height:100%;
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
-        background:url('front/covid-19.jpg');
-        background-size: cover;
-
-        }
-
-    </style>
-    <div class="card-img-top p-5" style="background-image: url('front/covid-19.jpg');background-repeat: no-repeat;">
-      <div class="">
-        <p class="card-text text-right text-black"><strong>Ley 251/2021 <br>Declaratoria de emergencia <br> municipal por el rebrote <br> del covid-19 dentro la jurisdiccion <br> territorial del <br> municipio de Llallagua </strong></p>
-      </div>
-
-    </div>
-    <strong>OTRAS NOTICIAS</strong>
-    <br>
-    <!-- Marketing Icons Section -->
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Apertura nuevo SEGIP en el distrito de Calacala</h4>
-
-          <div class="card-body px-0 py-0">
-            <img src="front/calacala.jpg" style="width: 100%; height: 100%;" alt="">
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Ver Mas</a>
+      <div class="row">
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="front/sikuya.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Información</a>
+              </h4>
+              <p class="card-text">Sikuya es otro de los muchos distritos que tiene la ciudad de Llallagua hubicado al Sur de la ciudad con un crecimiento poblacional exponencialmente significativo. </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Concluyen proyecto de exploración minera en Potosí</h4>
-          <div class="card-body">
-            <img src="front/not2.jpg" style="width: 100%; height: 100%;" alt="">
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Ver Mas</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">El Segip emite 980 licencias en Llallagua</h4>
-          <div class="card-body">
-            <img src="front/not3.jpg" style="width: 100%; height: 100%;" alt="">
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Ver Mas</a>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="front/Engarrafadora.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#"></a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <!-- /.row -->
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
 
   </div>
   <!-- /.container -->
@@ -86,7 +73,7 @@ include 'header.php';
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Gobierno Autónomo Municipal de Llallagua &copy;Todos los derechos Reservados.</p>
+      <p class="m-0 text-center text-white">Gobierno Autónomo Municipal de Llallagua &copy;Todos los derechos Reservados.</p>>
     </div>
     <!-- /.container -->
   </footer>

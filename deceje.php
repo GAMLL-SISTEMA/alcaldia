@@ -1,8 +1,6 @@
 <?php
 include 'header.php';
-?>
-
-  <!-- Page Content -->
+?>  <!-- Page Content -->
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
@@ -153,8 +151,6 @@ include 'header.php';
 </body>
 
 </html>
-
-
 <script type="text/javascript">
 $(document).ready(function(){
     $('#login_button').click(function(){

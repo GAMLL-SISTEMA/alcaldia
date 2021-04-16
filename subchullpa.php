@@ -1,12 +1,10 @@
 <?php
 include 'header.php';
 ?>
-
-  <!-- Page Content -->
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">DIRECCION DE CULTURA
+    <h1 class="mt-4 mb-3">SUB-ALCALDIA CHULLPA
       <small></small>
     </h1>
 
@@ -14,24 +12,34 @@ include 'header.php';
       <li class="breadcrumb-item">
         <a href="index.html">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">Dirección de Cultura</li>
+      <li class="breadcrumb-item active">Subalcaldia Chullpa</li>
     </ol>
 
-    <div class="row">
-      <div class="col-lg-12 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="front/virgen de la asuncion.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title text-center">
-              <a href="#">Festividad de la virgen de la Asunción</a>
-            </h4>
-            <p class="card-text text-justify">Del 13 al 16 de agosto, Llallagua es el centro de atracción en todo el norte del Potosí, ya que se celebra la asunción de la virgen María y, en honor a ella, se celebra la llamada Festividad de la Virgen de la Asunción. A diferencia de otras festividades existentes en el departamento e incluso fiestas patronales del país, esta no es sometida a movimiento de fecha («Al Santo, en su día», reza el refrán popular).
-            La festividad es organizada por Asconfolk (Asociación de Conjuntos Folklóricos de Llallagua).</p>
+      <div class="row">
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="front/chullpa.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Información</a>
+              </h4>
+              <p class="card-text">Uno de los nuevos distritos de Llallagua originaria de los ayllus Chullpa que se asentaron en la ciudad de Llallagua.</p>
+            </div>
           </div>
         </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="front/chullpaa.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#"></a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
-    <!-- /.row -->
 
     <!-- Pagination -->
     <ul class="pagination justify-content-center">
@@ -76,7 +84,6 @@ include 'header.php';
 </body>
 
 </html>
-
 <script type="text/javascript">
 $(document).ready(function(){
     $('#login_button').click(function(){

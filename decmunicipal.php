@@ -1,6 +1,7 @@
 <?php
 include 'header.php';
 ?>
+
   <!-- Page Content -->
   <div class="container">
 
@@ -152,71 +153,3 @@ include 'header.php';
 </body>
 
 </html>
-
-<script type="text/javascript">
-$(document).ready(function(){
-    $('#login_button').click(function(){
-
-        var username=$('#username').val();
-        var password=$('#lpassword').val();
-
-        if(username != '' && password != ''){
-
-            $.ajax({
-            url:"includes/i_user.php",
-            method:"POST",
-            data:{username:username, password:password},
-            success:function(data){
-              if(data == 'No'){
-                alert("Nombre de usuario y/o password incorrecto");
-              }else{
-                $('#loginModal').hide();
-                location.reload();
-              }
-            }
-          });
-        }else{
-          alert('Debe llenar los campos');
-        }
-    });
-    $('#register_button').click(function(){
-        var usuario=$('#usuario').val();
-        var password=$('#contrasena').val();
-        var repassword=$('#repassword').val();
-        var nombres_apellidos=$('#nombres_apellidos').val();
-        var email=$('#email').val();
-
-        if(usuario !='' && password != '' && repassword != '' && nombres_apellidos != '', email != ''){
-
-          if(password == repassword){
-            $.ajax({
-              url:"includes/i_user.php",
-              method:"POST",
-              data: {usuario:usuario, password:password, repassword:repassword, nombres_apellidos:nombres_apellidos, email:email},
-              success:function(data)
-              {
-                if(data == 'existuser'){
-                  alert("El USUARIO YA EXISTE");
-                }else{
-                  if(data=='yes'){
-                    alert("TE REGISTRASTE!");
-                    $('#registerModal').hide();
-                    location.reload();
-                  }else{
-                      alert(data);
-                  }
-                }
-              }
-            });
-
-          }else{
-            alert("password not match");
-          }
-
-        }else{
-          alert("debe llenar todos los campos");
-        }
-    })
-});
-
-</script>
