@@ -46,30 +46,20 @@ include 'header.php';
       </li>
       <li class="breadcrumb-item active">Noticias</li>
     </ol>
-
-    <!-- Image Header http://placehold.it/1200x300-->
-    <style media="screen">
-      .img{
-        margin:10px auto;
-        border-radius:5px;
-        border: 1px solid #999;
-        padding:13px;
-        width:100%;
-        height:100%;
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
-        background:url('../front/covid-19.jpg');
-        background-size: cover;
-
-        }
-
-    </style>
-    <div class="card-img-top p-5" style="background-image: url('../front/covid-19.jpg');background-repeat: no-repeat;">
-      <div class="">
-        <p class="card-text text-right text-black"><strong>Ley 251/2021 <br>Declaratoria de emergencia <br> municipal por el rebrote <br> del covid-19 dentro la jurisdiccion <br> territorial del <br> municipio de Llallagua </strong></p>
+    <div class="row">
+      <!-- Map Column -->
+      <div class="col-lg-8 mb-4">
+        <!-- Embedded Google Map -->
+        <iframe style="width: 100%; height: 400px; border: 0;" src="../front/covid-19.jpg"></iframe>
       </div>
-
+      <!-- Contact Details Column -->
+      <div class="col-lg-4 mb-4 text-justify">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
     </div>
+
+
     <strong>OTRAS NOTICIAS</strong>
     <br>
     <!-- Marketing Icons Section -->
