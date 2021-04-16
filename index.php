@@ -1,6 +1,7 @@
 <?php
 include 'header.php';
 ?>
+
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -54,12 +55,15 @@ include 'header.php';
     <h1 class="my-4 text-center bg-secondary text-white">GOBIERNO MUNICIPAL</h1>
 
     <!-- Marketing Icons Section -->
-    <div class="row">
+
+    <div class="row" >
       <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header bg-success text-center">NOTICIAS</h4>
-          <div class="card-body">
-            <p class="card-text text-justify">Declaratoria de emergencia municipal por el rebrote del coronavirus Covid-19 dentro la jurisdicción territorial del municipio de Llallagua. El municipio de llallagua entra en emergencia luego de que subieran los casos de Covid-19. Solo se permite circular de 5am a 11pm .</p>
+        <div class="border border-dark" class="card h-100">
+          <h3 class="card-header bg-success text-center" >NOTICIAS</h4>
+            <div class="card-header bg-secondary text-center"
+          <div class="card-header text-center" class="card-body ">
+            <img src="front/noti.png" class="img-thumbnail" alt="Eniun" >
+            <h4 class="text-white" class="card-text text-justify ">Declaratoria de emergencia municipal por el rebrote del coronavirus Covid-19 dentro la jurisdicción territorial del municipio de Llallagua.</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Ver mas</a>
@@ -67,10 +71,10 @@ include 'header.php';
         </div>
       </div>
       <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header text-center bg-success">BIENES Y SERVICIOS REQUERIDOS POR EL GAMLL</h4>
-          <div class="card-body">
-            <p class="card-text">-Listado de items requeridos</p>-Convocatorias</p>-Contratación de bienes y servicios requeridos por el GAMLL</p>
+        <div class="border border-dark" class="card h-100">
+          <h3 class="card-header text-center bg-success">BIENES Y SERVICIOS REQUERIDOS POR EL GAMLL</h4>
+          <div class="card-header bg-secondary">
+            <h4 class="text-white card-text text-justify">-Listado de items</p>-Convocatorias</p>-Contratación de bienes y servicios requeridos por el GAMLL</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Ver mas</a>
@@ -78,10 +82,10 @@ include 'header.php';
         </div>
       </div>
       <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header bg-success text-center">INFORME DE GESTIÓN</h4>
-          <div class="card-body">
-            <p class="card-text text-justify"></p>-Rendición pública de cuentas </p>-Informes de Gestión del Gobierno Autónomo Municipal de Llallagua. </p>-Actividad independiente y objetiva de supervisión, una consultoría diseñada para agregar valor y mejorar las operaciones de una organización.</p>
+        <div class="border border-dark" class="card h-100">
+          <h3 class="card-header bg-success text-center">INFORME DE GESTIÓN</h4>
+          <div class="card-body bg-secondary">
+            <h4 class="text-white card-text text-justify">-Rendición pública de cuentas </p>-Informes de Gestión del Gobierno Autónomo Municipal de Llallagua. </p>-Actividad independiente y objetiva de supervisión, una consultoría diseñada para agregar valor y mejorar las operaciones de una organización.</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Ver mas</a>
@@ -100,9 +104,9 @@ include 'header.php';
           <a href="#"><img class="card-img-top" src="front/estadium.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Estadium Irineo Pimentel Rojas</a>
+              <a class="text-center">Estadium Irineo Pimentel Rojas</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text text-justify">Este mega-proyecto se encuentra en las ultimas etapas de construcción, se prevee que para el año 2022 ya se tenga inagurado el nuevo stadium IRINEO PIMENTEL ROJAS</p>
           </div>
         </div>
       </div>
@@ -111,7 +115,7 @@ include 'header.php';
           <a href="#"><img class="card-img-top" src="front/ayacucho.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">U.E. Ayacucho</a>
+              <a class="text-center">U.E. Ayacucho</a>
             </h4>
             <p class="card-text text-justify"> Se prevee que para mediados del año 2021 el colegio ayacucho estara en funcionamiento gracias a la rapida ejecucion del proyecto COLEGIO PARA TODOS</p>
           </div>
@@ -224,6 +228,7 @@ include 'header.php';
 </body>
 
 </html>
+
 
 
 

@@ -1,183 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Modern Business - Start Bootstrap Template</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
-
-</head>
-
-<body class="p-0">
-
-  <!-- Navigation fixed-top fixed-top-->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="container">
-      <img src="front/Escudo.png" alt="" width="70">
-      <a class="navbar-brand font-italic" href="index.html">G.M.LL.<br>Esfuerzo y Desarrollo</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="text-dark navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html"><strong> Llallagua</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html"><strong>Noticias</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html"><strong>Contactos</strong></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <strong>Sub-Alcadias</strong>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">Siglo XX</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">22 de Diciembre</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">Catavi</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">Chullpa</a>
-              <a class="dropdown-item" href="portfolio-item.html">Sikuya</a>
-              <a class="dropdown-item" href="portfolio2-item.html">Sakamarca</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <strong>Gaceta municipal</strong>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Decreto Municipal</a>
-              <a class="dropdown-item" href="blog-home-2.html">Decreto Edil</a>
-              <a class="dropdown-item" href="blog-post.html">Decreto Ejecutivo</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <strong>Otros</strong>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-              <a class="dropdown-item" href="full-width.html">Dirección de Cultura</a>
-              <a class="dropdown-item" href="sidebar.html">Dirección de Turismo</a>
-
-            </div>
-          </li>
-
-        </ul>
-        <!--para login ann register-->
-
-        <button type="button" class="btn btn-outline-primary mx-1" data-toggle="modal"data-target="#loginModal" id="buttonlogin "name="buttonlogin">Ingresar</button>
-        <button type="button" class="btn btn-outline-primary" data-toggle="modal"data-target="#registerModal"name="button">Registro</button>
-
-
-        <!--PARA LOGIN-->
-
-
-
-          <div class="modal fade" role="dialog" id="loginModal">
-              <div class="modal-dialog">
-                <div class="modal-content">
-
-                  <div class="modal-header">
-                    <h3 class="modal-title">Ingresar</h3>
-                    <button type="button" class="close" data-dismiss="modal" name="bu">&times;</button>
-                  </div>
-
-                  <div class="modal-body">
-
-                    <div class="from-group">
-                      <input type="text" name="username" id="username" class="form-control" value="" placeholder="Nombre o Email">
-                    </div>
-                    <br>
-                    <div class="from-group">
-                      <input type="password" name="password" id="password" class="form-control" value="" placeholder="Contraseña">
-                    </div>
-
-                  </div>
-
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-warning" name="forpassword">¿Olvidó su contraceña?</button>
-                    <button type="button" class="mx-5 btn btn-danger" data-dismiss="modal" name="cancel">Cancelar</button>
-                    <button type="submit" class="btn btn-success" id="login_button" name="login_button">Ingresar</button>
-                  </div>
-
-                </div>
-              </div>
-
-          </div>
-
-
-
-
-        <!-- para registro -->
-        <div class="modal fade" role="dialog" id="registerModal">
-
-            <div class="modal-dialog">
-              <div class="modal-content">
-
-                <div class="modal-header">
-                  <h3 class="modal-title">Registrarse</h3>
-                  <button type="button" class="close" data-dismiss="modal" name="bu">&times;</button>
-                </div>
-
-                <div class="modal-body">
-
-                  <div class="from-group">
-
-                    <input type="text" name="username_register" id="username_register" class="form-control" value="" placeholder="Nombre de Usuario">
-
-                  </div>
-                  <br>
-                  <div class="from-group">
-                    <input type="password" name="password_register" id="password_register"class="form-control" value="" placeholder="Contraseña">
-                    <!---<div class="input-group">
-                        <input type="password" name="password_registerc" id="password_registerc" class="form-control" value="" placeholder="Password" data-toggle="password">
-                        <div class="input-group-append">
-                            <div class="input-group-text"><i class="fa fa-eye"></i></div>
-                        </div>
-                    </div>-->
-                  </div>
-                  <br>
-                  <div class="from-group">
-                    <input type="password" name="repassword_register" id="repassword_register"class="form-control" value="" placeholder="Repetir contraseña">
-                  </div>
-                  <br>
-                  <div class="from-group">
-                    <input type="text" name="nick_name_register" id="nick_name_register" class="form-control" value="" placeholder="Nombres y Apellidos">
-                  </div>
-                  <br>
-                  <div class="from-group">
-                    <input type="email" name="email_register" id="email_register"class="form-control" value="" placeholder="Email">
-                  </div>
-
-
-                </div>
-
-                <div class="modal-footer">
-
-                  <button type="button" class="mx-5 btn btn-danger" data-dismiss="modal" name="cancel_register">Cancelar</button>
-                  <button type="submit" class="btn btn-success" id="register_button" name="register_button">Registrarse</button>
-                </div>
-
-              </div>
-
-              </div>
-            </div>
-
-
-      </div>
-    </div>
-  </nav>
+<?php
+include 'header.php';
+?>
 
   <!-- Page Content -->
   <div class="container">
@@ -263,3 +86,70 @@
 </body>
 
 </html>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#login_button').click(function(){
+
+        var username=$('#username').val();
+        var password=$('#lpassword').val();
+
+        if(username != '' && password != ''){
+
+            $.ajax({
+            url:"includes/i_user.php",
+            method:"POST",
+            data:{username:username, password:password},
+            success:function(data){
+              if(data == 'No'){
+                alert("Nombre de usuario y/o password incorrecto");
+              }else{
+                $('#loginModal').hide();
+                location.reload();
+              }
+            }
+          });
+        }else{
+          alert('Debe llenar los campos');
+        }
+    });
+    $('#register_button').click(function(){
+        var usuario=$('#usuario').val();
+        var password=$('#contrasena').val();
+        var repassword=$('#repassword').val();
+        var nombres_apellidos=$('#nombres_apellidos').val();
+        var email=$('#email').val();
+
+        if(usuario !='' && password != '' && repassword != '' && nombres_apellidos != '', email != ''){
+
+          if(password == repassword){
+            $.ajax({
+              url:"includes/i_user.php",
+              method:"POST",
+              data: {usuario:usuario, password:password, repassword:repassword, nombres_apellidos:nombres_apellidos, email:email},
+              success:function(data)
+              {
+                if(data == 'existuser'){
+                  alert("El USUARIO YA EXISTE");
+                }else{
+                  if(data=='yes'){
+                    alert("TE REGISTRASTE!");
+                    $('#registerModal').hide();
+                    location.reload();
+                  }else{
+                      alert(data);
+                  }
+                }
+              }
+            });
+
+          }else{
+            alert("password not match");
+          }
+
+        }else{
+          alert("debe llenar todos los campos");
+        }
+    })
+});
+
+</script>
