@@ -31,20 +31,20 @@ session_start();
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
       <img src="front/Escudo.png" alt="" width="70">
-      <a class="navbar-brand font-italic" href="index.html">G.M.LL.<br>Esfuerzo y Desarrollo</a>
+      <a class="navbar-brand font-italic" href="index.php">G.M.LL.<br>Esfuerzo y Desarrollo</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="text-dark navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html"><strong> Llallagua</strong></a>
+            <a class="nav-link" href="llallagua.php"><strong> Llallagua</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html"><strong>Noticias</strong></a>
+            <a class="nav-link" href="noticias.php"><strong>Noticias</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html"><strong>Contactos</strong></a>
+            <a class="nav-link" href="contactos.php"><strong>Contactos</strong></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -64,9 +64,9 @@ session_start();
               <strong>Gaceta municipal</strong>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Decreto Municipal</a>
-              <a class="dropdown-item" href="blog-home-2.html">Decreto Edil</a>
-              <a class="dropdown-item" href="blog-post.html">Decreto Ejecutivo</a>
+              <a class="dropdown-item" href="Dmunicipal.php">Decreto Municipal</a>
+              <a class="dropdown-item" href="Dedil.php">Decreto Edil</a>
+              <a class="dropdown-item" href="Dejecutivo.php">Decreto Ejecutivo</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -74,8 +74,8 @@ session_start();
               <strong>Otros</strong>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-              <a class="dropdown-item" href="full-width.html">Dirección de Cultura</a>
-              <a class="dropdown-item" href="sidebar.html">Dirección de Turismo</a>
+              <a class="dropdown-item" href="Dicultura.php">Dirección de Cultura</a>
+              <a class="dropdown-item" href="Diturismo.php">Dirección de Turismo</a>
 
             </div>
           </li>

@@ -4,7 +4,37 @@ include 'header.php';
 
   <!-- Page Content -->
   <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-4">
+        <h3>Publicar Nueva Noticia</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Titulo</label>
+              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <p class="help-block"></p>
+            </div>
+          </div>
 
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>descripcion:</label>
+              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label for="">Foto:</label>
+              <input type="file" class="form-control" id="archivo" name="archivo">
+            </div>
+          </div>
+          <div id="success"></div>
+          <!-- For success/fail messages -->
+          <button type="submit" class="btn btn-primary" id="sendMessageButton">Publicar</button>
+        </form>
+      </div>
+
+    </div>
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">Noticias
       <small>Declaratoria de emergencia municipal por el rebrote Covid-19</small>
