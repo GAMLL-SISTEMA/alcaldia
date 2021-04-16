@@ -31,32 +31,32 @@ session_start();
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
       <img src="front/Escudo.png" alt="" width="70">
-      <a class="navbar-brand font-italic" href="index.html">G.M.LL.<br>Esfuerzo y Desarrollo</a>
+      <a class="navbar-brand font-italic" href="index.php">G.M.LL.<br>Esfuerzo y Desarrollo</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="text-dark navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html"><strong> Llallagua</strong></a>
+            <a class="nav-link" href="llallagua.php"><strong> Llallagua</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html"><strong>Noticias</strong></a>
+            <a class="nav-link" href="noticias.php"><strong>Noticias</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html"><strong>Contactos</strong></a>
+            <a class="nav-link" href="contact.php"><strong>Contactos</strong></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <strong>Sub-Alcadias</strong>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">Siglo XX</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">22 de Diciembre</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">Catavi</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">Chullpa</a>
-              <a class="dropdown-item" href="portfolio-item.html">Sikuya</a>
-              <a class="dropdown-item" href="portfolio2-item.html">Sakamarca</a>
+              <a class="dropdown-item" href="subsigloxx.php">Siglo XX</a>
+              <a class="dropdown-item" href="sub22dic.php">22 de Diciembre</a>
+              <a class="dropdown-item" href="subcatavi.php">Catavi</a>
+              <a class="dropdown-item" href="subchullpa.php">Chullpa</a>
+              <a class="dropdown-item" href="subsikuya.php">Sikuya</a>
+              <a class="dropdown-item" href="subsakamarka.php">Sakamarca</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -64,9 +64,9 @@ session_start();
               <strong>Gaceta municipal</strong>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Decreto Municipal</a>
-              <a class="dropdown-item" href="blog-home-2.html">Decreto Edil</a>
-              <a class="dropdown-item" href="blog-post.html">Decreto Ejecutivo</a>
+              <a class="dropdown-item" href="decmunicipal.php">Decreto Municipal</a>
+              <a class="dropdown-item" href="decedil.php">Decreto Edil</a>
+              <a class="dropdown-item" href="deceje.php">Decreto Ejecutivo</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -74,8 +74,8 @@ session_start();
               <strong>Otros</strong>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-              <a class="dropdown-item" href="full-width.html">Dirección de Cultura</a>
-              <a class="dropdown-item" href="sidebar.html">Dirección de Turismo</a>
+              <a class="dropdown-item" href="dircultura.php">Dirección de Cultura</a>
+              <a class="dropdown-item" href="dirturismo.php">Dirección de Turismo</a>
 
             </div>
           </li>
